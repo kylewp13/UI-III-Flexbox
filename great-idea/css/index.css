@@ -110,10 +110,16 @@ header div nav a {
 }
 
 .button {
-	display: block;
 	border: 1px solid	black;
 	width: 150px;
 	padding: 10px;
+	margin-top: 20px;
+	border-radius: 5px;
+	background: white;
+	text-align: center;
+}
+/* button align for index.html */
+#button {
 	margin: 0 auto;
 }
 
@@ -123,7 +129,8 @@ header div nav a {
 
 .flex_container {
 	display: flex;
-	justify-content: space-evenly;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
 .topColumn {
@@ -214,4 +221,28 @@ form {
 #top_header h1 {
 	margin: 20px 0;
 	font-size: 30px;
+}
+
+.child_container {
+	width: 47%;
+	background: lightgray;
+	border: 1px solid black;
+	margin: 20px 0;
+	padding: 15px;
+}
+
+.bottom_container {
+	width: 49%;
+	/* margin: 10px; */
+	/* padding: 20px; */
+}
+
+.services-info-img {
+	width: 100%;
+}
+
+.page_break {
+	border-bottom: 1px solid black;
+	padding-bottom: 40px;
+	margin-bottom: 20px;
 }
