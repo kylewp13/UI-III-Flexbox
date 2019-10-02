@@ -65,6 +65,10 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+a {
+	text-decoration: none;
+}
+
 .navBar {
 	position: fixed;
 	top: 0;
@@ -75,7 +79,6 @@ h1, h2, h3, h4, h5 {
 	width: 100%;
 	height: 80px;
 	padding: 0 20%;
-	border: 1px solid blue; /* remove this  <-------------------------------------- */ 
 }
 
 header div nav a {
@@ -213,7 +216,7 @@ form {
 #top_header {
 	margin: 110px 0 20px 0;
 	padding-bottom: 40px;
-	border-bottom: 1px solid black;
+	border-bottom: 2px solid black;
 	flex-direction: column;
 	width: 100%;
 }
@@ -225,16 +228,25 @@ form {
 
 .child_container {
 	width: 47%;
-	background: lightgray;
+	background: #f4f3f4;
 	border: 1px solid black;
-	margin: 20px 0;
+	margin-bottom: 40px;
 	padding: 15px;
 }
 
 .bottom_container {
-	width: 49%;
-	/* margin: 10px; */
-	/* padding: 20px; */
+	width: 47%;
+	margin: 30px 0;
+}
+
+.bottom_container ul {
+	margin-top: 30px;
+}
+
+.bottom_container ul li {
+	margin-left: 20px;
+	margin-bottom: 15px;
+	list-style-type: square;
 }
 
 .services-info-img {
@@ -242,7 +254,5 @@ form {
 }
 
 .page_break {
-	border-bottom: 1px solid black;
-	padding-bottom: 40px;
-	margin-bottom: 20px;
+	border-bottom: 2px solid black;
 }
